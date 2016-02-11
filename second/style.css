@@ -1,0 +1,65 @@
+body {
+	background-color: #d3d3d3;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+}
+
+.header {
+	background-color: white;
+	height: 200px;
+	width: 450px;
+	margin: 20px;
+	padding: 20px;
+	position: relative;
+}
+
+.button {
+	color: white;
+	padding: 10px 30px;
+	position: absolute;
+	margin-bottom: 20px;
+	bottom: 0;
+}
+
+.red {
+	background-color: #B73031;
+}
+
+.blue {
+	background-color: #236787;
+	margin-left: 100px;
+}
+
+.container {
+	background-color: white;
+	height: 400px;
+	width: 450px;
+	margin: 20px;
+	padding: 20px;
+}
+
+.image {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #808080;
+	background-image: url(https://pbs.twimg.com/media/CIREQStWwAAtTXl.jpg);
+	height: 240px;
+	margin-bottom: 20px;
+}
+
+footer {
+	display:flex;
+	justify-content: flex-end;
+	height: 60px;
+	width: 530px;
+	background-color: #333333;
+	color: white;
+	text-decoration:none;
+	margin-top: 40px;
+}
+
+li {
+	display: inline;
+	margin-right: 60px;
+}

@@ -1,0 +1,60 @@
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+	margin: 0;
+}
+
+ul {
+	padding-left: 40px;
+}
+
+li {
+	color: white;
+	display: inline;
+	padding-right: 20px;
+}
+
+header {
+	display: flex;
+	justify-content: flex;
+	align-items: center;
+	height: 70px;
+	width: 60%;
+	background-color: #333333;
+}
+
+.column {
+	padding-top: 50px;
+	padding-left: 40px;
+	width: 540px;
+	float:left;
+}
+
+.left, .right, .box {
+	/*float: left;*/
+	width: 48%;
+	padding-top: 10px;
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+.box {
+	background-color: #D3D3D3;
+	margin-left: 20px;
+	height: 200px;
+	float:left;
+	display: inline-block;
+}
+
+footer {
+	clear:both;
+	height: 75px;
+	width: 60%;
+	background-color: #333333;
+}
